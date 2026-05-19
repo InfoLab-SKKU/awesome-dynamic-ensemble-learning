@@ -1,4 +1,5 @@
-# Awesome Dynamic Ensemble Learning
+Awesome Dynamic Ensemble Learning
+=========================
  
 
 .. image:: https://img.shields.io/github/license/yzhao062/awesome-ensemble-learning.svg?color=blue
