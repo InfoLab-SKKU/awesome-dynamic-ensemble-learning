@@ -2,14 +2,9 @@ Awesome Dynamic Ensemble Learning
 =========================
  
 
-.. image:: https://img.shields.io/github/license/yzhao062/awesome-ensemble-learning.svg?color=blue
-   :target: https://github.com/yzhao062/awesome-ensemble-learning/blob/master/LICENSE
-   :alt: License
+[![License](https://img.shields.io/github/license/yzhao062/awesome-ensemble-learning.svg?color=blue)](https://github.com/yzhao062/awesome-ensemble-learning/blob/master/LICENSE)
 
-
-.. image:: https://awesome.re/badge-flat2.svg
-   :target: https://awesome.re/badge-flat2.svg
-   :alt: Awesome
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 
 
