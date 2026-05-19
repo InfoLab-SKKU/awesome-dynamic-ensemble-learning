@@ -1,1 +1,1 @@
-# awesome-dynamic-ensemble-learning
+# Awesome Dynamic Ensemble Learning
