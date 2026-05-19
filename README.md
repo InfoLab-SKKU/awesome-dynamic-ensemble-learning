@@ -1,5 +1,6 @@
 # Awesome Dynamic Ensemble Learning
 ========================= 
+
 .. image:: https://img.shields.io/github/license/yzhao062/awesome-ensemble-learning.svg?color=blue
    :target: https://github.com/yzhao062/awesome-ensemble-learning/blob/master/LICENSE
    :alt: License
