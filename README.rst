@@ -11,8 +11,6 @@ Awesome Dynamic Ensemble Learning
 
 
 
-`Awesome Ensemble Learning <https://github.com/yzhao062/awesome-ensemble-learning#gomes2017a>`_
-
 
 
 `Dynamic Ensemble Learning <https://en.wikipedia.org/wiki/Ensemble_learning>`_
@@ -39,3 +37,6 @@ Pattern Recognition, 2008.
 .. [#Cruz2018Dynamic] Cruz, R. M. O., Sabourin, R., and Cavalcanti, G. D. C.
 "Dynamic Classifier Selection: Recent Advances and Perspectives."
 Information Fusion, 2018.
+
+
+You can check: `Awesome Ensemble Learning <https://github.com/yzhao062/awesome-ensemble-learning#gomes2017a>`_ 
