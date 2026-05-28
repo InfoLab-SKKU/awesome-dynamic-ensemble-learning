@@ -30,13 +30,9 @@ and autonomous systems [#Cruz2018Dynamic]_.
 
 
 
-.. [#Ko2008Dynamic] Ko, A. H. R., Sabourin, R., and Britto Jr, A. S.
-"From Dynamic Classifier Selection to Dynamic Ensemble Selection."
-Pattern Recognition, 2008.
+.. [#Ko2008Dynamic] Ko, A. H. R., Sabourin, R., and Britto Jr, A. S. "From Dynamic Classifier Selection to Dynamic Ensemble Selection." Pattern Recognition, 2008.
 
-.. [#Cruz2018Dynamic] Cruz, R. M. O., Sabourin, R., and Cavalcanti, G. D. C.
-"Dynamic Classifier Selection: Recent Advances and Perspectives."
-Information Fusion, 2018.
+.. [#Cruz2018Dynamic] Cruz, R. M. O., Sabourin, R., and Cavalcanti, G. D. C. "Dynamic Classifier Selection: Recent Advances and Perspectives." Information Fusion, 2018.
 
 
 You can check: `Awesome Ensemble Learning <https://github.com/yzhao062/awesome-ensemble-learning#gomes2017a>`_ 
