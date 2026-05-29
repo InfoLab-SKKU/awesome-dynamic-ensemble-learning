@@ -144,7 +144,7 @@ References:
 
 .. [#juraev2024infodeslib] Juraev, F., Shaker El-Sappagh, Tamer Abuhmed. "Infodeslib: Python library for dynamic ensemble learning using late fusion of multimodal data." KDD 2024 Workshop KiL. 
 
-.. [#soares2006using] Soares, R. G., et al. (2006).
+.. [#soares2006using] Soares, R. G., et al. "Using accuracy and diversity to select classifiers to build ensembles". The 2006 IEEE international joint conference on neural network proceedings 2006.
 .. [#wolo2011] Woloszynski, T., & Kurzynski, M. (2011).
 .. [#wolo2012] Woloszynski, T., et al. (2012).
 .. [#cavalin2013] Cavalin, P. R., et al. (2013).
