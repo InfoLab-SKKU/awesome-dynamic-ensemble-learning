@@ -31,9 +31,6 @@ and autonomous systems [#Cruz2018Dynamic]_.
 Existing Popular DES techniques: 
 ================================================================== 
 
-.. table:: Representative DES techniques. Top: classical methods from prior surveys. Bottom: recent methods discussed in this section.
-   :name: tab_des_methods_summary
-
    +----------------------------------------+--------------------------+-------------------------------------+-------------------------------------+----------+
    | **Technique** | **RoC Definition** | **Selection Criteria** | **Reference** | **Year** |
    +========================================+==========================+=====================================+=====================================+==========+
