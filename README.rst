@@ -70,20 +70,7 @@ and autonomous systems [#Cruz2018Dynamic]_.
    | IncA-DES                               | K-d Tree                 | Adaptive selection                  | Barboza et al. [#barboza2025]_      | 2025     |
    +----------------------------------------+--------------------------+-------------------------------------+-------------------------------------+----------+
 
-.. [#soares2006using] Soares, R. G., et al. (2006).
-.. [#ko2008dynamic] Ko, A. H., et al. (2008).
-.. [#wolo2011] Woloszynski, T., & Kurzynski, M. (2011).
-.. [#wolo2012] Woloszynski, T., et al. (2012).
-.. [#cavalin2013] Cavalin, P. R., et al. (2013).
-.. [#cruz2015meta] Cruz, R. M., et al. (2015).
-.. [#oliveira2017] Oliveira, D. V., et al. (2017).
-.. [#garcia2018] Garcia, S., et al. (2018).
-.. [#cruz2019fire] Cruz, R. M., et al. (2019).
-.. [#souza2024] Souza, J. V., et al. (2024).
-.. [#davtalab2024] Davtalab, R., et al. (2024).
-.. [#zhu2025] Zhu, Y., et al. (2025).
-.. [#zhang2025] Zhang, Y., et al. (2025).
-.. [#barboza2025] Barboza, E., et al. (2025).
+
 
 
 Python Libraries: 
@@ -160,5 +147,20 @@ References:
 .. [#Cruz2020DESlib] Cruz, R. M. O., Hafemann, L. G., Sabourin, R., and Cavalcanti, G. D. C. "DESlib: A Dynamic Ensemble Selection Library in Python." Journal of Machine Learning Research, 2020.
 
 .. [#juraev2024infodeslib] Juraev, F., Shaker El-Sappagh, Tamer Abuhmed. "Infodeslib: Python library for dynamic ensemble learning using late fusion of multimodal data." KDD 2024 Workshop KiL. 
+
+.. [#soares2006using] Soares, R. G., et al. (2006).
+.. [#ko2008dynamic] Ko, A. H., et al. (2008).
+.. [#wolo2011] Woloszynski, T., & Kurzynski, M. (2011).
+.. [#wolo2012] Woloszynski, T., et al. (2012).
+.. [#cavalin2013] Cavalin, P. R., et al. (2013).
+.. [#cruz2015meta] Cruz, R. M., et al. (2015).
+.. [#oliveira2017] Oliveira, D. V., et al. (2017).
+.. [#garcia2018] Garcia, S., et al. (2018).
+.. [#cruz2019fire] Cruz, R. M., et al. (2019).
+.. [#souza2024] Souza, J. V., et al. (2024).
+.. [#davtalab2024] Davtalab, R., et al. (2024).
+.. [#zhu2025] Zhu, Y., et al. (2025).
+.. [#zhang2025] Zhang, Y., et al. (2025).
+.. [#barboza2025] Barboza, E., et al. (2025).
 
 You can check: `Awesome Ensemble Learning <https://github.com/yzhao062/awesome-ensemble-learning#gomes2017a>`_ 
