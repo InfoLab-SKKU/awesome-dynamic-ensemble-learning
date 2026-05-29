@@ -29,6 +29,11 @@ and autonomous systems [#Cruz2018Dynamic]_.
 
 
 
+Python Libraries: 
+
+.. image:: https://img.shields.io/badge/python-3.10+-blue.svg?style=flat&logo=python&logoColor=white
+   :target: https://www.python.org
+   :alt: Python Version 
 
 Existing Libraries and included techniques: 
 ==================================================================
