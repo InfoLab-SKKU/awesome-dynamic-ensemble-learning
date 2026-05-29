@@ -16,10 +16,10 @@ Awesome Dynamic Ensemble Learning
 `Dynamic Ensemble Learning <https://en.wikipedia.org/wiki/Ensemble_learning>`_
 (often referred to as *Dynamic Ensemble Selection (DES)* or *Dynamic Classifier Selection (DCS)*)
 is an advanced branch of ensemble learning focused on selecting the most
-competent classifier or subset of classifiers for each individual query sample.
+competent classifier or a subset of classifiers for each query sample.
 Unlike static ensemble methods, dynamic ensemble learning adapts the decision
 process according to the local characteristics of the input space, often leading
-to improved robustness and predictive performance [#Ko2008Dynamic]_.
+to improve robustness and predictive performance [#Ko2008Dynamic]_.
 
 Dynamic ensemble learning has gained significant attention in machine learning
 research due to its effectiveness in handling complex, imbalanced, noisy, and
@@ -29,7 +29,7 @@ and autonomous systems [#Cruz2018Dynamic]_.
 
 
 
-
+### References 
 .. [#Ko2008Dynamic] Ko, A. H. R., Sabourin, R., and Britto Jr, A. S. "From Dynamic Classifier Selection to Dynamic Ensemble Selection." Pattern Recognition, 2008.
 
 .. [#Cruz2018Dynamic] Cruz, R. M. O., Sabourin, R., and Cavalcanti, G. D. C. "Dynamic Classifier Selection: Recent Advances and Perspectives." Information Fusion, 2018.
