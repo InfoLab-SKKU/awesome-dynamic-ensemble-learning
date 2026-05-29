@@ -31,9 +31,12 @@ and autonomous systems [#Cruz2018Dynamic]_.
 
 Python Libraries: 
 
-.. image:: https://img.shields.io/badge/python-3.10+-blue.svg?style=flat&logo=python&logoColor=white
+.. image:: https://img.shields.io/badge/python-3.8+-blue.svg?style=flat&logo=python&logoColor=white
    :target: https://www.python.org
    :alt: Python Version 
+
+1. DESLib [#Cruz2020DESlib]_   Github: https://github.com/scikit-learn-contrib/deslib 
+2. InfoDESLib [#juraev2024infodeslib]_  Github: https://github.com/InfoLab-SKKU/infodeslib 
 
 Existing Libraries and included techniques: 
 ==================================================================
