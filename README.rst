@@ -29,22 +29,28 @@ and autonomous systems [#Cruz2018Dynamic]_.
 
 
 
-Main Libraries
+# Main Libraries
 
-+--------------+--------------------------------------------------+--------------------------------------------------------------+
-| Library | Description | Repository |
-+==============+==================================================+==============================================================+
-| DESlib | Comprehensive Python library for Dynamic | https://github.com/scikit-learn-contrib/DESlib |
-| | Ensemble Selection (DES) and Dynamic | |
-| | Classifier Selection (DCS). Includes | |
-| | methods such as KNORA-E, KNORA-U, | |
-| | META-DES, DES-P, and KNOP. | |
-+--------------+--------------------------------------------------+--------------------------------------------------------------+
-| Infodeslib | Information-theoretic dynamic ensemble | https://github.com/redavtalab/infodeslib |
-| | learning framework focused on competence | |
-| | estimation, uncertainty analysis, and | |
-| | research-oriented DES experimentation. | |
-+--------------+--------------------------------------------------+--------------------------------------------------------------+
+.. list-table::
+:header-rows: 1
+:widths: 20 50 30
+
+* * Library
+  * Description
+  * Repository
+
+* * DESlib
+  * Comprehensive Python library for Dynamic Ensemble Selection (DES)
+    and Dynamic Classifier Selection (DCS). Includes methods such as
+    KNORA-E, KNORA-U, META-DES, DES-P, and KNOP.
+  * https://github.com/scikit-learn-contrib/DESlib
+
+* * Infodeslib
+  * Information-theoretic dynamic ensemble learning framework focused
+    on competence estimation, uncertainty analysis, and research-oriented
+    DES experimentation.
+  * https://github.com/redavtalab/infodeslib
+
 
 
 
@@ -56,5 +62,7 @@ References:
 .. [#Cruz2018Dynamic] Cruz, R. M. O., Sabourin, R., and Cavalcanti, G. D. C. "Dynamic Classifier Selection: Recent Advances and Perspectives." Information Fusion, 2018.
 
 .. [#Cruz2020DESlib] Cruz, R. M. O., Hafemann, L. G., Sabourin, R., and Cavalcanti, G. D. C. "DESlib: A Dynamic Ensemble Selection Library in Python." Journal of Machine Learning Research, 2020.
+
+.. [#juraev2024infodeslib] Juraev, F., Shaker El-Sappagh, Tamer Abuhmed. "Infodeslib: python library for dynamic ensemble learning using late fusion of multimodal data." KDD 2024 Workshop KiL. 
 
 You can check: `Awesome Ensemble Learning <https://github.com/yzhao062/awesome-ensemble-learning#gomes2017a>`_ 
