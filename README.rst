@@ -146,7 +146,6 @@ References:
 .. [#juraev2024infodeslib] Juraev, F., Shaker El-Sappagh, Tamer Abuhmed. "Infodeslib: Python library for dynamic ensemble learning using late fusion of multimodal data." KDD 2024 Workshop KiL. 
 
 .. [#soares2006using] Soares, R. G., et al. (2006).
-.. [#ko2008dynamic] Ko, A. H., et al. (2008).
 .. [#wolo2011] Woloszynski, T., & Kurzynski, M. (2011).
 .. [#wolo2012] Woloszynski, T., et al. (2012).
 .. [#cavalin2013] Cavalin, P. R., et al. (2013).
