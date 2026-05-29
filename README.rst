@@ -28,9 +28,9 @@ including medical diagnosis, cybersecurity, fault detection, computer vision,
 and autonomous systems [#Cruz2018Dynamic]_.
 
 
-# Main Libraries
 
-Comparison of DES techniques implemented in DESLib and InfoDESLib
+
+Existing Libraries and included techniques: 
 ==================================================================
 
 +----------------------------------------+-------+----------+-------------+
