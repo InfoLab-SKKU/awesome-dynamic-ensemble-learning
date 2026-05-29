@@ -36,7 +36,7 @@ Comparison of DES techniques implemented in DESLib and InfoDESLib
 +----------------------------------------+-------+----------+-------------+
 | Technique                              | Type  | DESLib   | InfoDESLib  |
 +========================================+=======+==========+=============+
-| Modified Classifier Rank (MR)          | DCS   | ✓        | ✓          |
+| Modified Classifier Rank (MR)          | DCS   | \✓        | \          |
 +----------------------------------------+-------+----------+-------------+
 | Overall Local Accuracy (OLA)           | DCS   | \        | \           |
 +----------------------------------------+-------+----------+-------------+
