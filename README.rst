@@ -29,6 +29,25 @@ and autonomous systems [#Cruz2018Dynamic]_.
 
 
 
+Main Libraries
+
++--------------+--------------------------------------------------+--------------------------------------------------------------+
+| Library | Description | Repository |
++==============+==================================================+==============================================================+
+| DESlib | Comprehensive Python library for Dynamic | https://github.com/scikit-learn-contrib/DESlib |
+| | Ensemble Selection (DES) and Dynamic | |
+| | Classifier Selection (DCS). Includes | |
+| | methods such as KNORA-E, KNORA-U, | |
+| | META-DES, DES-P, and KNOP. | |
++--------------+--------------------------------------------------+--------------------------------------------------------------+
+| Infodeslib | Information-theoretic dynamic ensemble | https://github.com/redavtalab/infodeslib |
+| | learning framework focused on competence | |
+| | estimation, uncertainty analysis, and | |
+| | research-oriented DES experimentation. | |
++--------------+--------------------------------------------------+--------------------------------------------------------------+
+
+
+
 References: 
 ========================= 
 
