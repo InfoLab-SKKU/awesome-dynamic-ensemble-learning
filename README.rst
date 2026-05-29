@@ -42,31 +42,31 @@ Existing Popular DES techniques:
 +-------------------+------------------------+--------------------------------------+--------------------------------------+------+
 | KNORA-U           | K-NN                   | Oracle                               | Ko et al. [#ko2008dynamic]_          | 2008 |
 +-------------------+------------------------+--------------------------------------+--------------------------------------+------+
-| DES-RRC           | Potential function     | Probabilistic                        | Woloszynski et al. [#wolo2011]_      | 2011 |
+| DES-RRC           | Potential function     | Probabilistic                        | Woloszynski et al. [#woloszynski2011probabilistic]_      | 2011 |
 +-------------------+------------------------+--------------------------------------+--------------------------------------+------+
-| DES-KL            | Potential function     | Probabilistic                        | Woloszynski et al. [#wolo2012]_      | 2012 |
+| DES-KL            | Potential function     | Probabilistic                        | Woloszynski et al. [#woloszynski2012measure]_      | 2012 |
 +-------------------+------------------------+--------------------------------------+--------------------------------------+------+
-| DES-P             | Potential function     | Probabilistic                        | Woloszynski et al. [#wolo2012]_      | 2012 |
+| DES-P             | Potential function     | Probabilistic                        | Woloszynski et al. [#woloszynski2012measure]_      | 2012 |
 +-------------------+------------------------+--------------------------------------+--------------------------------------+------+
-| KNOP              | K-NN                   | Behavior                             | Cavalin et al. [#cavalin2013]_       | 2013 |
+| KNOP              | K-NN                   | Behavior                             | Cavalin et al. [#cavalin2013dynamic]_       | 2013 |
 +-------------------+------------------------+--------------------------------------+--------------------------------------+------+
 | META-DES          | K-NN                   | Meta-Learning                        | Cruz et al. [#cruz2015meta]_         | 2015 |
 +-------------------+------------------------+--------------------------------------+--------------------------------------+------+
-| FIRE-DES          | K-NN                   | Pruning-based                        | Oliveira et al. [#oliveira2017]_     | 2017 |
+| FIRE-DES          | K-NN                   | Pruning-based                        | Oliveira et al. [#oliveira2017online]_     | 2017 |
 +-------------------+------------------------+--------------------------------------+--------------------------------------+------+
-| DES-MI            | K-NN                   | Weighted Accuracy (minority-aware)   | S. Garcia et al. [#garcia2018]_      | 2018 |
+| DES-MI            | K-NN                   | Weighted Accuracy (minority-aware)   | S. Garcia et al. [#garcia2018dynamic]_      | 2018 |
 +-------------------+------------------------+--------------------------------------+--------------------------------------+------+
 | FIRE-DES++        | K-NN                   | Pruning-based                        | Cruz et al. [#cruz2019fire]_         | 2019 |
 +-------------------+------------------------+--------------------------------------+--------------------------------------+------+
-| GNN-DES           | Graph (Decision space) | Meta-Learning                        | Souza et al. [#souza2024]_           | 2024 |
+| GNN-DES           | Graph (Decision space) | Meta-Learning                        | Souza et al. [#souza2024dynamic]_           | 2024 |
 +-------------------+------------------------+--------------------------------------+--------------------------------------+------+
-| FH-DES            | Fuzzy hyperboxes       | Fuzzy logic                          | Davtalab et al. [#davtalab2024]_     | 2024 |
+| FH-DES            | Fuzzy hyperboxes       | Fuzzy logic                          | Davtalab et al. [#davtalab2024scalable]_     | 2024 |
 +-------------------+------------------------+--------------------------------------+--------------------------------------+------+
-| imDEF             | Decision space         | Referee System                       | Zhu et al. [#zhu2025]_               | 2025 |
+| imDEF             | Decision space         | Referee System                       | Zhu et al. [#zhu2025dynamic]_               | 2025 |
 +-------------------+------------------------+--------------------------------------+--------------------------------------+------+
-| DES-AS            | K-NN                   | Synergy                              | Zhang et al. [#zhang2025]_           | 2025 |
+| DES-AS            | K-NN                   | Synergy                              | Zhang et al. [#zhang2025dynamic]_           | 2025 |
 +-------------------+------------------------+--------------------------------------+--------------------------------------+------+
-| IncA-DES          | K-d Tree               | Adaptive selection                   | Barboza et al. [#barboza2025]_       | 2025 |
+| IncA-DES          | K-d Tree               | Adaptive selection                   | Barboza et al. [#barboza2025inca]_       | 2025 |
 +-------------------+------------------------+--------------------------------------+--------------------------------------+------+
 
 Python Libraries: 
@@ -145,17 +145,17 @@ References:
 .. [#juraev2024infodeslib] Juraev, F., Shaker El-Sappagh, Tamer Abuhmed. "Infodeslib: Python library for dynamic ensemble learning using late fusion of multimodal data." KDD 2024 Workshop KiL. 
 
 .. [#soares2006using] Soares, R. G., et al. "Using accuracy and diversity to select classifiers to build ensembles". The 2006 IEEE international joint conference on neural network proceedings 2006.
-.. [#wolo2011] Woloszynski, T., & Kurzynski, M. (2011).
-.. [#wolo2012] Woloszynski, T., et al. (2012).
-.. [#cavalin2013] Cavalin, P. R., et al. (2013).
-.. [#cruz2015meta] Cruz, R. M., et al. (2015).
-.. [#oliveira2017] Oliveira, D. V., et al. (2017).
-.. [#garcia2018] Garcia, S., et al. (2018).
-.. [#cruz2019fire] Cruz, R. M., et al. (2019).
-.. [#souza2024] Souza, J. V., et al. (2024).
-.. [#davtalab2024] Davtalab, R., et al. (2024).
-.. [#zhu2025] Zhu, Y., et al. (2025).
-.. [#zhang2025] Zhang, Y., et al. (2025).
-.. [#barboza2025] Barboza, E., et al. (2025).
+.. [#woloszynski2011probabilistic] Woloszynski, T., & Kurzynski, M. "A probabilistic model of classifier competence for dynamic ensemble selection". Pattern Recognition, 2011.
+.. [#woloszynski2012measure] Woloszynski, T., et al. "A measure of competence based on random classification for dynamic ensemble selection". Information Fusion, 2012.
+.. [#cavalin2013dynamic] Cavalin, P. R., et al. "Dynamic selection approaches for multiple classifier systems". Neural computing and applications (2013).
+.. [#cruz2015meta] Cruz, R. M., et al. "META-DES: A dynamic ensemble selection framework using meta-learning", Pattern Recognition (2015).
+.. [#oliveira2017online] Oliveira, D. V., et al. "Online pruning of base classifiers for dynamic ensemble selection". Pattern Recognition (2017).
+.. [#garcia2018dynamic] Garcia, S., et al. "Dynamic ensemble selection for multi-class imbalanced datasets". Information Sciences (2018).
+.. [#cruz2019fire] Cruz, R. M., et al. "FIRE-DES++: Enhanced online pruning of base classifiers for dynamic ensemble selection". Pattern Recognition (2019).
+.. [#souza2024dynamic] Souza, J. V., et al. "A dynamic multiple classifier system using graph neural network for high dimensional overlapped data". Information Fusion (2024).
+.. [#davtalab2024scalable] Davtalab, R., et al. "A scalable dynamic ensemble selection using fuzzy hyperboxes". Information Fusion (2024).
+.. [#zhu2025dynamic] Zhu, Y., et al. "Dynamic ensemble framework for imbalanced data classification". IEEE Transactions on Knowledge and Data Engineering (2025).
+.. [#zhang2025dynamic] Zhang, Y., et al. "DES-AS: Dynamic ensemble selection based on algorithm Shapley". Pattern Recognition (2025).
+.. [#barboza2025inca] Barboza, E., et al. "IncA-DES: An incremental and adaptive dynamic ensemble selection approach using online Kd tree neighborhood search for data streams with concept drift". Information Fusion (2025).
 
 You can check: `Awesome Ensemble Learning <https://github.com/yzhao062/awesome-ensemble-learning#gomes2017a>`_ 
