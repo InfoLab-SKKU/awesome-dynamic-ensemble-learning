@@ -28,7 +28,6 @@ including medical diagnosis, cybersecurity, fault detection, computer vision,
 and autonomous systems [#Cruz2018Dynamic]_.
 
 
-
 # Main Libraries
 
 .. list-table::
