@@ -28,6 +28,15 @@ including medical diagnosis, cybersecurity, fault detection, computer vision,
 and autonomous systems [#Cruz2018Dynamic]_.
 
 
+Steps of Dynamic Ensemble Selection: 
+======================================
+
+.. image:: images/pipeline.png
+   :width: 600px
+   :align: center
+   :alt: Dynamic Ensemble Selection Pipeline
+
+
 Existing Popular DES techniques: 
 ================================================================== 
 
