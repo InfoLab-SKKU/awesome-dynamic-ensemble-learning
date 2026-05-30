@@ -40,7 +40,7 @@ Steps of Dynamic Ensemble Selection:
 The Dynamic Ensemble Selection (DES) framework can be divided into four
 main stages, as illustrated in the workflow diagram.
 
-**Data Preparation**
+🔹 **Data Preparation**
     This stage includes the initial processing of the dataset before
     training. It consists of preprocessing the data (Step 1), such as
     handling missing values, normalization, or feature transformation,
