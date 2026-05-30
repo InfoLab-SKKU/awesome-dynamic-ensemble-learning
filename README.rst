@@ -37,6 +37,37 @@ Steps of Dynamic Ensemble Selection:
    :alt: Dynamic Ensemble Selection Pipeline
 
 
+The Dynamic Ensemble Selection (DES) framework can be divided into four
+main stages, as illustrated in the workflow diagram.
+
+**Data Preparation**
+    This stage includes the initial processing of the dataset before
+    training. It consists of preprocessing the data (Step 1), such as
+    handling missing values, normalization, or feature transformation,
+    followed by partitioning the dataset (Step 2) into training,
+    validation (DSEL), and testing subsets.
+
+**DES Training Phase**
+    During training, a diverse pool of classifiers is generated (Step 3)
+    and trained using the designated training data (Step 4). For
+    meta-learning-based DES methods, an additional meta-training stage
+    (Step 5) is performed to learn how to estimate classifier competence
+    in different regions of the feature space.
+
+**DES Selection Phase**
+    Given a query sample, the algorithm first determines its Region of
+    Competence (RoC) (Step 6), typically using the nearest neighbors in
+    the Dynamic Selection dataset (DSEL). The competence of each
+    classifier is then estimated within this region (Step 7). Based on
+    these competence estimates, the most suitable classifiers are
+    selected to form a dynamic ensemble (Step 8).
+
+**DES Prediction Phase**
+    The selected ensemble produces predictions for the query sample,
+    which are combined using an aggregation strategy such as majority
+    voting, weighted voting, or probability averaging (Step 9). The
+    aggregated result constitutes the final prediction of the DES system.
+
 Existing Popular DES techniques: 
 ================================================================== 
 
