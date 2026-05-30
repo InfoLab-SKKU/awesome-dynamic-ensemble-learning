@@ -57,7 +57,7 @@ main stages, as illustrated in the workflow diagram.
 **DES Selection Phase**
     Given a query sample, the algorithm first determines its Region of
     Competence (RoC) (Step 6), typically using the nearest neighbors in
-    the Dynamic Selection dataset (DSEL). The competence of each
+    the DSEL. The competence of each
     classifier is then estimated within this region (Step 7). Based on
     these competence estimates, the most suitable classifiers are
     selected to form a dynamic ensemble (Step 8).
