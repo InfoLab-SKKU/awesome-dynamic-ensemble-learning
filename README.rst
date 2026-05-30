@@ -28,7 +28,7 @@ including medical diagnosis, cybersecurity, fault detection, computer vision,
 and autonomous systems [#Cruz2018Dynamic]_.
 
 
-Steps of Dynamic Ensemble Selection: 
+🔸 Steps of Dynamic Ensemble Selection: 
 ======================================
 
 .. image:: images/pipeline.png
@@ -47,14 +47,14 @@ main stages, as illustrated in the workflow diagram.
     followed by partitioning the dataset (Step 2) into training,
     validation (DSEL), and testing subsets.
 
-**DES Training Phase**
+🔹 **DES Training Phase**
     During training, a diverse pool of classifiers is generated (Step 3)
     and trained using the designated training data (Step 4). For
     meta-learning-based DES methods, an additional meta-training stage
     (Step 5) is performed to learn how to estimate classifier competence
     in different regions of the feature space.
 
-**DES Selection Phase**
+🔹 **DES Selection Phase**
     Given a query sample, the algorithm first determines its Region of
     Competence (RoC) (Step 6), typically using the nearest neighbors in
     the DSEL. The competence of each
@@ -62,13 +62,13 @@ main stages, as illustrated in the workflow diagram.
     these competence estimates, the most suitable classifiers are
     selected to form a dynamic ensemble (Step 8).
 
-**DES Prediction Phase**
+🔹 **DES Prediction Phase**
     The selected ensemble produces predictions for the query sample,
     which are combined using an aggregation strategy such as majority
     voting, weighted voting, or probability averaging (Step 9). The
     aggregated result constitutes the final prediction of the DES system.
 
-Existing Popular DES techniques: 
+🔸 Existing Popular DES techniques: 
 ================================================================== 
 
 +-------------------+------------------------+--------------------------------------+------------------------------------------------------------------+------+
@@ -109,7 +109,7 @@ Existing Popular DES techniques:
 | IncA-DES          | K-d Tree               | Adaptive selection                   | Barboza et al. [#barboza2025inca]_                               | 2025 |
 +-------------------+------------------------+--------------------------------------+------------------------------------------------------------------+------+
 
-Python Libraries: 
+🔸 Python Libraries: 
 
 .. image:: https://img.shields.io/badge/python-3.8+-blue.svg?style=flat&logo=python&logoColor=white
    :target: https://www.python.org
@@ -173,7 +173,7 @@ Existing Libraries and included techniques:
 | Explainable AI (XAI) support           | --    | --       | ✓           |
 +----------------------------------------+-------+----------+-------------+
 
-References: 
+🔸 References: 
 ========================= 
 
 .. [#Ko2008Dynamic] Ko, A. H. R., Sabourin, R., and Britto Jr, A. S. "From Dynamic Classifier Selection to Dynamic Ensemble Selection." Pattern Recognition, 2008.
