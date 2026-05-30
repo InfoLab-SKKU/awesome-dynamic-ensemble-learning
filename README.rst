@@ -75,8 +75,8 @@ Python Libraries:
    :target: https://www.python.org
    :alt: Python Version 
 
-1. DESLib [#Cruz2020DESlib]_   Github: https://github.com/scikit-learn-contrib/deslib 
-2. InfoDESLib [#juraev2024infodeslib]_  Github: https://github.com/InfoLab-SKKU/infodeslib 
+1. DESLib [#Cruz2020DESlib]_   Github: `here <https://github.com/scikit-learn-contrib/deslib>`_
+2. InfoDESLib [#juraev2024infodeslib]_  Github: `here <https://github.com/InfoLab-SKKU/infodeslib>`_
 
 Existing Libraries and included techniques: 
 ==================================================================
