@@ -14,14 +14,16 @@ Awesome Dynamic Ensemble Learning
 Table of Contents
 =================
 
-1. `Introduction`_
-2. `Steps of Dynamic Ensemble Selection`_
-3. `Existing Popular DES Techniques`_
-4. `Python Libraries`_
-5. `Existing Libraries and Included Techniques`_
-6. `References`_
+- `Introduction <#introduction>`_
+- `Steps of Dynamic Ensemble Selection <#steps-of-dynamic-ensemble-selection>`_
+- `Existing Popular DES Techniques <#existing-popular-des-techniques>`_
+- `Python Libraries <#python-libraries>`_
+- `Existing Libraries and Included Techniques <#existing-libraries-and-included-techniques>`_
+- `References <#references>`_
 
 
+Introduction
+============
 `Dynamic Ensemble Learning <https://en.wikipedia.org/wiki/Ensemble_learning>`_
 (often referred to as *Dynamic Ensemble Selection (DES)* or *Dynamic Classifier Selection (DCS)*)
 is an advanced branch of ensemble learning focused on selecting the most
@@ -37,7 +39,7 @@ including medical diagnosis, cybersecurity, fault detection, computer vision,
 and autonomous systems [#Cruz2018Dynamic]_.
 
 
-🔸 Steps of Dynamic Ensemble Selection: 
+Steps of Dynamic Ensemble Selection: 
 ======================================
 
 .. image:: images/pipeline.png
