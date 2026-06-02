@@ -19,6 +19,7 @@ Table of Contents
 - `Existing Popular DES Techniques <#existing-popular-des-techniques>`_
 - `Python Libraries <#python-libraries>`_
 - `Existing Libraries and Included Techniques <#existing-libraries-and-included-techniques>`_
+- `Benchmark <#benchmark>`_
 - `References <#references>`_
 
 
@@ -195,7 +196,7 @@ Overall, DES methods consistently outperformed static ensemble approaches, confi
 From a computational perspective, most DES techniques exhibited inference times, training costs, and memory requirements comparable to simple voting-based ensembles. Only probabilistic and meta-learning-based DES variants incurred noticeable computational overhead due to their additional competence estimation and modeling components. These findings demonstrate that DES can provide substantial predictive improvements while remaining computationally practical and scalable for real-world applications.
 
 .. image:: images/benchmark_results_1.png
-   :width: 600px
+   :width: 700px
    :align: center
    :alt: Dynamic Ensemble Selection Benchmark Results 
 
@@ -204,7 +205,7 @@ We also evaluated the sensitivity of the ensemble methods to three key parameter
 Overall, the results indicate that RoC size has minimal influence on predictive performance and computational cost. In contrast, DSEL size substantially affects all evaluated metrics: larger DSEL sets generally improve accuracy but increase training time, inference time, and memory consumption, while smaller DSEL sets provide better efficiency at the cost of some performance degradation. The classifier pool size also plays an important role; reducing the number of base classifiers consistently improves computational efficiency and, in many cases, slightly increases F1-score, suggesting that excessively large classifier pools may introduce redundancy rather than additional diversity. These findings highlight DSEL size and pool size as the most influential factors for balancing predictive performance and computational efficiency in dynamic ensemble systems.
 
 .. image:: images/benchmark_results_2.png
-   :width: 600px
+   :width: 700px
    :align: center
    :alt: Dynamic Ensemble Selection Benchmark Results 
 
