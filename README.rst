@@ -79,8 +79,8 @@ main stages, as illustrated in the workflow diagram.
     voting, weighted voting, or probability averaging (Step 9). The
     aggregated result constitutes the final prediction of the DES system.
 
-🔸 Existing Popular DES techniques: 
-================================================================== 
+Existing Popular DES techniques: 
+=====================================
 
 +-------------------+------------------------+--------------------------------------+------------------------------------------------------------------+------+
 | Technique         | RoC Definition         | Selection Criteria                   | Reference                                                        | Year |
@@ -120,7 +120,8 @@ main stages, as illustrated in the workflow diagram.
 | IncA-DES          | K-d Tree               | Adaptive selection                   | Barboza et al. [#barboza2025inca]_                               | 2025 |
 +-------------------+------------------------+--------------------------------------+------------------------------------------------------------------+------+
 
-🔸 Python Libraries: 
+Python Libraries: 
+===================================== 
 
 .. image:: https://img.shields.io/badge/python-3.8+-blue.svg?style=flat&logo=python&logoColor=white
    :target: https://www.python.org
