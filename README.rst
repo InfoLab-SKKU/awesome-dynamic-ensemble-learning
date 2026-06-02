@@ -188,9 +188,9 @@ Existing Libraries and included techniques:
 Benchmark: 
 ========================= 
 
-We conducted a large-scale benchmark comparing 16 Dynamic Ensemble Selection (DES) methods and 3 classical static ensemble techniques across 25 diverse tabular datasets from the PMLB repository. All methods were evaluated under a unified experimental protocol using a heterogeneous pool of 17 base classifiers, a 60/20/20 train–DSEL–test split, and macro-F1 as the primary evaluation metric.
+We conducted a large-scale benchmark comparing 16 DES methods and 3 classical static ensemble techniques across 25 diverse tabular datasets from the PMLB repository. All methods were evaluated under a unified experimental protocol using a heterogeneous pool of 17 base classifiers, a 60/20/20 train–DSEL–test split, and macro-F1 as the primary evaluation metric.
 
-Overall, DES methods consistently outperformed static ensemble approaches, confirming the advantage of dynamically selecting competent classifiers for individual test instances. Classical DES methods such as KNOP, META-DES, and KNORA-U achieved the highest average rankings, while recent approaches, including IncA-DES, GNN-DES, and FH-DES also demonstrated strong performance.
+Overall, DES methods consistently outperformed static ensemble approaches, confirming the advantage of dynamically selecting competent classifiers for individual test instances. Classical DES methods such as KNOP, META-DES, and KNORA-U achieved the highest average rankings, while recent approaches, including IncA-DES, GNN-DES, and FH-DES, also demonstrated strong performance.
 
 From a computational perspective, most DES techniques exhibited inference times, training costs, and memory requirements comparable to simple voting-based ensembles. Only probabilistic and meta-learning-based DES variants incurred noticeable computational overhead due to their additional competence estimation and modeling components. These findings demonstrate that DES can provide substantial predictive improvements while remaining computationally practical and scalable for real-world applications.
 
@@ -199,6 +199,9 @@ From a computational perspective, most DES techniques exhibited inference times,
    :align: center
    :alt: Dynamic Ensemble Selection Benchmark Results 
 
+We also evaluated the sensitivity of the ensemble methods to three key parameters shared across most DES frameworks: the RoC size, DSEL size, and classifier pool size. Experiments were conducted on the Fars dataset using the default configuration of (k=7), 20% DSEL, and 17 base classifiers.
+
+Overall, the results indicate that RoC size has minimal influence on predictive performance and computational cost. In contrast, DSEL size substantially affects all evaluated metrics: larger DSEL sets generally improve accuracy but increase training time, inference time, and memory consumption, while smaller DSEL sets provide better efficiency at the cost of some performance degradation. The classifier pool size also plays an important role; reducing the number of base classifiers consistently improves computational efficiency and, in many cases, slightly increases F1-score, suggesting that excessively large classifier pools may introduce redundancy rather than additional diversity. These findings highlight DSEL size and pool size as the most influential factors for balancing predictive performance and computational efficiency in dynamic ensemble systems.
 
 .. image:: images/benchmark_results_2.png
    :width: 600px
