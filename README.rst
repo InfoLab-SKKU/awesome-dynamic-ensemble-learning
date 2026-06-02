@@ -185,6 +185,21 @@ Existing Libraries and included techniques:
 | Explainable AI (XAI) support           | --    | --       | ✓           |
 +----------------------------------------+-------+----------+-------------+
 
+Benchmark: 
+========================= 
+
+.. image:: images/benchmark_results_1.png
+   :width: 600px
+   :align: center
+   :alt: Dynamic Ensemble Selection Benchmark Results 
+
+
+.. image:: images/benchmark_results_2.png
+   :width: 600px
+   :align: center
+   :alt: Dynamic Ensemble Selection Benchmark Results 
+
+
 References: 
 ========================= 
 
