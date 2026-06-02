@@ -223,14 +223,9 @@ Overall, the results indicate that RoC size has minimal influence on predictive 
 New Directions
 ==============
 
-Recent advances in deep learning have introduced several adaptive
-inference paradigms that share conceptual similarities with Dynamic
-Ensemble Selection (DES). Instead of selecting classifiers from a
-predefined ensemble, these methods dynamically route information,
-activate specialized experts, or adapt computational pathways on a
-per-sample basis. Such approaches can be viewed as modern extensions of
-the DES philosophy, where the prediction process is tailored to the
-characteristics of each input instance.
+Recent advances in deep learning have introduced several adaptive inference paradigms that share conceptual similarities with DES. Instead of selecting classifiers from a
+predefined ensemble, these methods dynamically route information, activate specialized experts, or adapt computational pathways on a per-sample basis. Such approaches can be viewed as modern extensions of
+the DES philosophy, where the prediction process is tailored to the characteristics of each input instance.
 
 +-----------------------------+--------------------------+----------------------------------+--------------------------------------------+
 | Direction                   | Core Idea                | Relation to DES                  | Example Works                              |
