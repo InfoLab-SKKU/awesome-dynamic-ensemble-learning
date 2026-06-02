@@ -11,6 +11,15 @@ Awesome Dynamic Ensemble Learning
 
 
 
+Table of Contents
+=================
+
+1. `Introduction`_
+2. `Steps of Dynamic Ensemble Selection`_
+3. `Existing Popular DES Techniques`_
+4. `Python Libraries`_
+5. `Existing Libraries and Included Techniques`_
+6. `References`_
 
 
 `Dynamic Ensemble Learning <https://en.wikipedia.org/wiki/Ensemble_learning>`_
