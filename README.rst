@@ -20,6 +20,7 @@ Table of Contents
 - `Python Libraries <#python-libraries>`_
 - `Existing Libraries and Included Techniques <#existing-libraries-and-included-techniques>`_
 - `Benchmark <#benchmark>`_
+- `New Directions <#new-directions>`_
 - `References <#references>`_
 
 
@@ -231,24 +232,24 @@ per-sample basis. Such approaches can be viewed as modern extensions of
 the DES philosophy, where the prediction process is tailored to the
 characteristics of each input instance.
 
-+----------------------+--------------------------+----------------------------------+--------------------------------------------+
-| Direction            | Core Idea                | Relation to DES                  | Example Works                              |
-+======================+==========================+==================================+============================================+
-| Mixture of Experts      | Activate a subset of     | Dynamic expert selection         | Switch Transformer, Mixtral,               |
-| (MoE)                   | experts through a        | based on input-dependent         | DeepSeek-MoE                               |
-| [#riquelme2021scaling]_ | gating network           | competence estimation            |                                            |
++-----------------------------+--------------------------+----------------------------------+--------------------------------------------+
+| Direction                   | Core Idea                | Relation to DES                  | Example Works                              |
++=============================+==========================+==================================+============================================+
+| Mixture of Experts          | Activate a subset of     | Dynamic expert selection         | Switch Transformer, Mixtral,               |
+| (MoE)                       | experts through a        | based on input-dependent         | DeepSeek-MoE                               |
+| [#riquelme2021scaling]_     | gating network           | competence estimation            |                                            |
 +-----------------------------+--------------------------+----------------------------------+--------------------------------------------+
 | Dynamic Routing             | Route samples through    | Input-specific selection of      | Routing Networks, Adaptive Neural Trees    |
 | Networks [#cai2021dynamic]_ | different network paths  | computational modules            |                                            |
 +-----------------------------+--------------------------+----------------------------------+--------------------------------------------+
-| Dynamic Vision       | Adaptively select image  | Dynamic selection of features    | DynamicViT, A-ViT                          |
-| Transformers         | tokens or transformer    | and model components             |                                            |
-| [#rao2021dynamicvit]_| blocks during inference  | for each query sample            |                                            |
-+----------------------+--------------------------+----------------------------------+--------------------------------------------+
-| Retrieval-Augmented  | Retrieve relevant        | Region-of-Competence concepts    | RAG, kNN-LM, RETRO                         |
-| Prediction           | examples or experts      | using external memory retrieval  |                                            |
-|                      | before prediction        |                                  |                                            |
-+----------------------+--------------------------+----------------------------------+--------------------------------------------+
+| Dynamic Vision              | Adaptively select image  | Dynamic selection of features    | DynamicViT, A-ViT                          |
+| Transformers                | tokens or transformer    | and model components             |                                            |
+| [#rao2021dynamicvit]_       | blocks during inference  | for each query sample            |                                            |
++-----------------------------+--------------------------+----------------------------------+--------------------------------------------+
+| Retrieval-Augmented         | Retrieve relevant        | Region-of-Competence concepts    | RAG, kNN-LM, RETRO                         |
+| Prediction                  | examples or experts      | using external memory retrieval  |                                            |
+|                             | before prediction        |                                  |                                            |
++-----------------------------+--------------------------+----------------------------------+--------------------------------------------+
 
 
 
