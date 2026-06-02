@@ -246,10 +246,6 @@ characteristics of each input instance.
 | Transformers                | tokens or transformer    | and model components             |                                            |
 | [#rao2021dynamicvit]_       | blocks during inference  | for each query sample            |                                            |
 +-----------------------------+--------------------------+----------------------------------+--------------------------------------------+
-| Retrieval-Augmented         | Retrieve relevant        | Region-of-Competence concepts    | RAG, kNN-LM, RETRO                         |
-| Prediction                  | examples or experts      | using external memory retrieval  |                                            |
-|                             | before prediction        |                                  |                                            |
-+-----------------------------+--------------------------+----------------------------------+--------------------------------------------+
 
 
 
