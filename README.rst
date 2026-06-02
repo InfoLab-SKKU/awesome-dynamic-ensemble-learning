@@ -219,6 +219,39 @@ Overall, the results indicate that RoC size has minimal influence on predictive 
    :alt: Dynamic Ensemble Selection Benchmark Results 
 
 
+New Directions
+==============
+
+Recent advances in deep learning have introduced several adaptive
+inference paradigms that share conceptual similarities with Dynamic
+Ensemble Selection (DES). Instead of selecting classifiers from a
+predefined ensemble, these methods dynamically route information,
+activate specialized experts, or adapt computational pathways on a
+per-sample basis. Such approaches can be viewed as modern extensions of
+the DES philosophy, where the prediction process is tailored to the
+characteristics of each input instance.
+
++----------------------+--------------------------+----------------------------------+--------------------------------------------+
+| Direction            | Core Idea                | Relation to DES                  | Example Works                              |
++======================+==========================+==================================+============================================+
+| Mixture of Experts      | Activate a subset of     | Dynamic expert selection         | Switch Transformer, Mixtral,               |
+| (MoE)                   | experts through a        | based on input-dependent         | DeepSeek-MoE                               |
+| [#riquelme2021scaling]_ | gating network           | competence estimation            |                                            |
++-----------------------------+--------------------------+----------------------------------+--------------------------------------------+
+| Dynamic Routing             | Route samples through    | Input-specific selection of      | Routing Networks, Adaptive Neural Trees    |
+| Networks [#cai2021dynamic]_ | different network paths  | computational modules            |                                            |
++-----------------------------+--------------------------+----------------------------------+--------------------------------------------+
+| Dynamic Vision       | Adaptively select image  | Dynamic selection of features    | DynamicViT, A-ViT                          |
+| Transformers         | tokens or transformer    | and model components             |                                            |
+| [#rao2021dynamicvit]_| blocks during inference  | for each query sample            |                                            |
++----------------------+--------------------------+----------------------------------+--------------------------------------------+
+| Retrieval-Augmented  | Retrieve relevant        | Region-of-Competence concepts    | RAG, kNN-LM, RETRO                         |
+| Prediction           | examples or experts      | using external memory retrieval  |                                            |
+|                      | before prediction        |                                  |                                            |
++----------------------+--------------------------+----------------------------------+--------------------------------------------+
+
+
+
 References: 
 ========================= 
 
@@ -243,5 +276,7 @@ References:
 .. [#zhu2025dynamic] Zhu, Y., et al. "Dynamic ensemble framework for imbalanced data classification". IEEE Transactions on Knowledge and Data Engineering (2025).
 .. [#zhang2025dynamic] Zhang, Y., et al. "DES-AS: Dynamic ensemble selection based on algorithm Shapley". Pattern Recognition (2025).
 .. [#barboza2025inca] Barboza, E., et al. "IncA-DES: An incremental and adaptive dynamic ensemble selection approach using online Kd tree neighborhood search for data streams with concept drift". Information Fusion (2025).
-
+.. [#riquelme2021scaling] Riquelme, Carlos, et al. "Scaling vision with sparse mixture of experts". Advances in Neural Information Processing Systems (2021)
+.. [#cai2021dynamic] Cai, Shaofeng, et al. "Dynamic routing networks". Proceedings of the IEEE/CVF winter conference on applications of computer vision (2021)
+.. [#rao2021dynamicvit] Rao, Yongming, et al. "Dynamicvit: Efficient vision transformers with dynamic token sparsification". Advances in neural information processing systems (2021)
 You can check: `Awesome Ensemble Learning <https://github.com/yzhao062/awesome-ensemble-learning#gomes2017a>`_ 
