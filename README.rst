@@ -20,6 +20,7 @@ Table of Contents
 - `Python Libraries <#python-libraries>`_
 - `Existing Libraries and Included Techniques <#existing-libraries-and-included-techniques>`_
 - `Benchmark <#benchmark>`_
+- `DES for Deep Learning <#des-for-deep-learning>`_
 - `New Directions <#new-directions>`_
 - `References <#references>`_
 
