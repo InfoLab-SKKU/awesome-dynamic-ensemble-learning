@@ -15,6 +15,7 @@ Table of Contents
 =================
 
 - `Introduction <#introduction>`_
+- `Taxonomy of DES <#taxonomy-of-des>`_
 - `Steps of Dynamic Ensemble Selection <#steps-of-dynamic-ensemble-selection>`_
 - `Existing Popular DES Techniques <#existing-popular-des-techniques>`_
 - `Python Libraries <#python-libraries>`_
@@ -40,6 +41,46 @@ research due to its effectiveness in handling complex, imbalanced, noisy, and
 non-stationary datasets. It has been successfully applied in various domains,
 including medical diagnosis, cybersecurity, fault detection, computer vision,
 and autonomous systems [#Cruz2018Dynamic]_.
+
+
+Taxonomy of DES
+=============== 
+
++--------------------------------------+----------------------------------------------------------------------------------------------+
+| **Term**                             | **Description**                                                                              |
++======================================+==============================================================================================+
+| **Base Classifier (Base Model)**     | A single weak learner in the ensemble. Each base classifier is trained independently,        |
+|                                      | and its outputs are later combined dynamically.                                              |
++--------------------------------------+----------------------------------------------------------------------------------------------+
+| **Pool of Classifiers**              | A collection of base classifiers that form the ensemble. The DES method dynamically          |
+|                                      | selects a subset of this pool for each query sample.                                         |
++--------------------------------------+----------------------------------------------------------------------------------------------+
+| **Region of Competence (RoC)**       | A local neighborhood around a query sample, usually determined using its *k* nearest         |
+|                                      | neighbors from the DSEL dataset. The competence of classifiers is estimated based on         |
+|                                      | their performance in this region.                                                            |
++--------------------------------------+----------------------------------------------------------------------------------------------+
+| **Competence Estimation**            | The process of quantifying how well each classifier is expected to perform in the local      |
+|                                      | region (RoC). Various measures, such as accuracy, probability estimates, or meta-features,   |
+|                                      | can be used.                                                                                 |
++--------------------------------------+----------------------------------------------------------------------------------------------+
+| **Dynamic Ensemble Selection (DES)** | A strategy that selects, for each query sample, the most competent classifiers from the      |
+|                                      | pool based on local information.                                                             |
++--------------------------------------+----------------------------------------------------------------------------------------------+
+| **Dynamic Classifier Selection       | A special case of DES where only one classifier (the most competent one) is selected         |
+| (DCS)**                              | for each sample.                                                                             |
++--------------------------------------+----------------------------------------------------------------------------------------------+
+| **Dynamic Selection Dataset          | A separate validation set used to estimate the competence of classifiers in DES methods.     |
+| (DSEL)**                             |                                                                                              |
++--------------------------------------+----------------------------------------------------------------------------------------------+
+| **Oracle**                           | A theoretical ideal selector that always picks the classifier(s) that predict the correct    |
+|                                      | label for each sample. Used as an upper performance bound in DES studies.                    |
++--------------------------------------+----------------------------------------------------------------------------------------------+
+| **Meta-Classifier**                  | A classifier trained to predict which base models should be selected for each query          |
+|                                      | instance, based on meta-features describing the local behavior of classifiers.               |
++--------------------------------------+----------------------------------------------------------------------------------------------+
+| **Diversity**                        | The degree to which base classifiers make different predictions. High diversity allows       |
+|                                      | DES to exploit complementary strengths among classifiers.                                    |
++--------------------------------------+----------------------------------------------------------------------------------------------+
 
 
 Steps of Dynamic Ensemble Selection: 
