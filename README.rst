@@ -173,6 +173,12 @@ Existing Popular DES techniques:
 +-------------------+-----------------------------------------------------------+
 
 
+.. image:: images/des_timeline.png
+   :width: 600px
+   :align: center
+   :alt: Dynamic Ensemble Selection Timeline
+
+
 Python Libraries: 
 ===================================== 
 
