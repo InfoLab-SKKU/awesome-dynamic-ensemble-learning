@@ -48,7 +48,7 @@ DES vs. Static Ensembles
 ========================
 
 +----------------------+---------------------------+----------------------------------+
-| Aspect               | Static Ensemble           | Dynamic Ensemble Selection (DES)|
+| Aspect               | Static Ensemble           | DES                              |
 +======================+===========================+==================================+
 | Classifier Selection | Fixed for all samples     | Varies per query sample          |
 +----------------------+---------------------------+----------------------------------+
