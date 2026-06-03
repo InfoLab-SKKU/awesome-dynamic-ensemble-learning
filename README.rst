@@ -15,6 +15,7 @@ Table of Contents
 =================
 
 - `Introduction <#introduction>`_
+- `DES vs. Static Ensembles <#des-vs-static-ensembles>`_
 - `Taxonomy of DES <#taxonomy-of-des>`_
 - `Steps of Dynamic Ensemble Selection <#steps-of-dynamic-ensemble-selection>`_
 - `Existing Popular DES Techniques <#existing-popular-des-techniques>`_
@@ -41,6 +42,33 @@ research due to its effectiveness in handling complex, imbalanced, noisy, and
 non-stationary datasets. It has been successfully applied in various domains,
 including medical diagnosis, cybersecurity, fault detection, computer vision,
 and autonomous systems [#Cruz2018Dynamic]_.
+
+
+DES vs. Static Ensembles
+========================
+
++----------------------+---------------------------+----------------------------------+
+| Aspect               | Static Ensemble           | Dynamic Ensemble Selection (DES)|
++======================+===========================+==================================+
+| Classifier Selection | Fixed for all samples     | Varies per query sample          |
++----------------------+---------------------------+----------------------------------+
+| Adaptation           | No                        | Yes                              |
++----------------------+---------------------------+----------------------------------+
+| Decision Strategy    | Global                    | Local / Instance-specific        |
++----------------------+---------------------------+----------------------------------+
+| Competence Modeling  | Not required              | Required                         |
++----------------------+---------------------------+----------------------------------+
+| Computational Cost   | Lower                     | Moderate to Higher               |
++----------------------+---------------------------+----------------------------------+
+| Robustness           | Moderate                  | Typically Higher                 |
++----------------------+---------------------------+----------------------------------+
+| Imbalanced Data      | Limited adaptability      | Better local adaptation          |
++----------------------+---------------------------+----------------------------------+
+| Interpretability     | Ensemble-level            | Classifier-level competence      |
++----------------------+---------------------------+----------------------------------+
+| Typical Examples     | Random Forest, Bagging,   | KNORA-E, KNORA-U, META-DES,      |
+|                      | AdaBoost, Voting          | DES-P, FIRE-DES                  |
++----------------------+---------------------------+----------------------------------+
 
 
 Taxonomy of DES
