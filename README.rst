@@ -226,7 +226,8 @@ DES for Deep Learning
 
 Kazi et al. proposed a DES algorithm that automatically constructs neural network ensembles by determining the ensemble size, network architectures, and training subsets. Their approach combines constructive-pruning strategies with negative correlation learning to maintain both accuracy and diversity among ensemble members, resulting in improved generalization performance across several benchmark classification datasets [#alam2020dynamic]_.
 
-Recent works of DES for Computer Vision 
+Recent works of DES for Computer Vision: 
+
 +--------------------------------------------------------------------------------------+--------+--------------------------------------------------------------------------------------+
 | Method                                                                               | Year   | Key Contribution                                                                     |
 +======================================================================================+========+======================================================================================+
