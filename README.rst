@@ -220,6 +220,25 @@ Overall, the results indicate that RoC size has minimal influence on predictive 
    :alt: Dynamic Ensemble Selection Benchmark Results 
 
 
+
+DES for Deep Learning
+=====================
+
+Kazi et al. proposed a DES algorithm that automatically constructs neural network ensembles by determining the ensemble size, network architectures, and training subsets. Their approach combines constructive-pruning strategies with negative correlation learning to maintain both accuracy and diversity among ensemble members, resulting in improved generalization performance across several benchmark classification datasets [#alam2020dynamic]_.
+
+Recent works of DES for Computer Vision 
++--------------------------------------------------------------------------------------+--------+--------------------------------------------------------------------------------------+
+| Method                                                                               | Year   | Key Contribution                                                                     |
++======================================================================================+========+======================================================================================+
+| Adversarial Robust Decision-Making Under Uncertainty Learning and Dynamic Ensemble   | 2024   | Introduced a dynamic ensemble selection framework that incorporates uncertainty      |
+| Selection  [#qin2024adversarial]_                                                    |        | estimation to improve adversarial robustness and decision-making under uncertainty.  |
++--------------------------------------------------------------------------------------+--------+--------------------------------------------------------------------------------------+
+| Adaptive Dynamic Ensemble Learning with Class-Specific Model Selection for Efficient | 2025   | Proposed a class-specific model selection strategy that dynamically chooses the      |
+| and Robust Image Classification  [#vasheghani2025adaptive]_                          |        | most suitable classifiers, improving both efficiency and robustness in image         |
+|                                                                                      |        | classification tasks.                                                                |
++--------------------------------------------------------------------------------------+--------+--------------------------------------------------------------------------------------+
+
+
 New Directions
 ==============
 
@@ -271,4 +290,7 @@ References:
 .. [#riquelme2021scaling] Riquelme, Carlos, et al. "Scaling vision with sparse mixture of experts". Advances in Neural Information Processing Systems (2021)
 .. [#cai2021dynamic] Cai, Shaofeng, et al. "Dynamic routing networks". Proceedings of the IEEE/CVF winter conference on applications of computer vision (2021)
 .. [#rao2021dynamicvit] Rao, Yongming, et al. "Dynamicvit: Efficient vision transformers with dynamic token sparsification". Advances in neural information processing systems (2021)
+.. [#alam2020dynamic] Alam, Kazi, et al. "A dynamic ensemble learning algorithm for neural networks". Neural Computing and Applications (2020) 
+.. [#vasheghani2025adaptive] Vasheghani, Sanaz, et al. "Adaptive dynamic ensemble learning with class-specific model selection for efficient and robust image classification". Knowledge-Based Systems (2025)
+.. [#qin2024adversarial] Qin, Ruoxi, et al. "Adversarial robust decision-making under uncertainty learning and dynamic ensemble selection". Engineering Applications of Artificial Intelligence (2024) 
 You can check: `Awesome Ensemble Learning <https://github.com/yzhao062/awesome-ensemble-learning#gomes2017a>`_ 
