@@ -311,19 +311,20 @@ Experimental setup:
 +------------------+------------------------------------------------+
 
 
-Benchmark Directory Structure:  
+Benchmark Directory Structure
+-----------------------------
 
-::
+.. code-block:: text
 
-benchmark/
-|-- des_models/
-|   |-- des_as.py
-|   |-- fh_des.py
-|   |-- gnn_des.py
-|   |-- im_def.py
-|   `-- inca_des.py
-|-- DES_Benchmark.ipynb
-`-- readme.rst
+    benchmark/
+    ├── des_models/
+    │   ├── des_as.py
+    │   ├── fh_des.py
+    │   ├── gnn_des.py
+    │   ├── im_def.py
+    │   └── inca_des.py
+    ├── DES_Benchmark.ipynb
+    └── readme.rst
 
 
 .. image:: images/benchmark_results_1.png
