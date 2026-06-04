@@ -386,7 +386,7 @@ the DES philosophy, where the prediction process is tailored to the characterist
 
 DES-Driven Multi-Agent AI Systems (Future Direction): 
 
-We envision Dynamic Ensemble Selection (DES) as a key component of future multi-agent AI systems. In this framework, specialized DES Expert Agents handle different data modalities (e.g., images, signals, text, tabular data) and dynamically select the most competent models using local competence estimation within a Region of Competence (RoC). A higher-level Manager Agent coordinates these experts, ranks them based on competence and task relevance, and aggregates their outputs for final decision-making. The architecture can further incorporate knowledge bases, memory modules, explainable AI (XAI) agents, and human feedback, enabling adaptive, interpretable, and collaborative intelligence. This agent-based perspective opens a promising research direction for scalable and modular DES-powered AI systems.
+We envision DES as a key component of future multi-agent AI systems. In this framework, specialized DES Expert Agents handle different data modalities (e.g., images, signals, text, tabular data) and dynamically select the most competent models using local competence estimation within an RoC. A higher-level Manager Agent coordinates these experts, ranks them based on competence and task relevance, and aggregates their outputs for final decision-making. The architecture can further incorporate knowledge bases, memory modules, XAI agents, and human feedback, enabling adaptive, interpretable, and collaborative intelligence. This agent-based perspective opens a promising research direction for scalable and modular DES-powered AI systems.
 
 
 .. image:: images/agent_des.png
