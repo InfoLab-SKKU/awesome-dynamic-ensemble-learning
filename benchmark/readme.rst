@@ -69,6 +69,35 @@ Base Classifiers
 +-------------------------+----------+------------------+----------------+-------------------------------------------+
 
 
+
+Dataset Characterization Metrics
+=================================
+
++------------------------------------------------------+--------------------+--------------------------------------------------------------+
+| Metric                                               | Category           | Interpretation                                               |
++======================================================+====================+==============================================================+
+| Fisher's Discriminant Ratio (F1)                     | Overlapping        | Higher values indicate stronger between-class separation and |
+|                                                      |                    | lower overlap. Lower values suggest poor discrimination and  |
+|                                                      |                    | significant class overlap.                                   |
++------------------------------------------------------+--------------------+--------------------------------------------------------------+
+| Imbalance Ratio (IR)                                 | Data Balance       | Lower values indicate well-balanced classes, while higher    |
+|                                                      |                    | values imply skewed distributions that may bias classifier   |
+|                                                      |                    | performance.                                                 |
++------------------------------------------------------+--------------------+--------------------------------------------------------------+
+| Kolmogorov–Smirnov (KS) Score                        | Dataset Similarity | Measures distribution divergence. Higher values indicate     |
+|                                                      |                    | larger differences between data distributions (e.g., Train   |
+|                                                      |                    | vs Test), potentially affecting generalization.              |
++------------------------------------------------------+--------------------+--------------------------------------------------------------+
+| Silhouette Coefficient (F2)                          | Dataset Quality    | Measures cluster separation quality. Higher values indicate  |
+|                                                      |                    | well-separated clusters, while negative values indicate      |
+|                                                      |                    | overlapping or poorly structured classes.                    |
++------------------------------------------------------+--------------------+--------------------------------------------------------------+
+| Intra/Extra Class Nearest Neighbor Distance Ratio    | Dataset Quality    | Lower values indicate tighter within-class clustering and    |
+| (F3)                                                 |                    | better structure. Higher values suggest greater class mixing |
+|                                                      |                    | and reduced discriminability.                                |
++------------------------------------------------------+--------------------+--------------------------------------------------------------+
+
+
 Datasets Summary
 ================
 
@@ -126,7 +155,8 @@ Datasets Summary
 | 25 | Fars               |100,968  | 29    | 8       | 0.16 | 0.02 | -0.133 | 0.646  |
 +----+--------------------+---------+-------+---------+------+------+--------+--------+
 
-**IR:** Imbalance Ratio, **F1:** Maximum Fisher's Discriminant Ratio, **F2:** Volume of Overlap Region, **F3:** Feature Efficiency.
+
+
 
 
 
