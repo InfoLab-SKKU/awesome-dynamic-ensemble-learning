@@ -310,6 +310,22 @@ Experimental setup:
 |                  | DES-AS, IncA-DES                               |
 +------------------+------------------------------------------------+
 
+
+Benchmark Directory Structure:  
+
+.. code-block:: text
+
+benchmark/
+├── des_models/
+│   ├── des_as.py
+│   ├── fh_des.py
+│   ├── gnn_des.py
+│   ├── im_def.py
+│   └── inca_des.py
+├── DES_Benchmark.ipynb
+└── readme.rst
+
+
 .. image:: images/benchmark_results_1.png
    :width: 700px
    :align: center
