@@ -283,29 +283,31 @@ From a computational perspective, most DES techniques exhibited inference times,
 
 Experimental setup: 
 
-+-------------------+----------------------------------------+
-| Benchmark Item | Value |
-+===================+========================================+
-| Datasets | 25 PMLB datasets |
-+-------------------+----------------------------------------+
-| Base Classifiers | 17 heterogeneous classifiers |
-+-------------------+----------------------------------------+
-| Data Split | 60% / 20% / 20% |
-+-------------------+----------------------------------------+
-| Metric | Macro-F1 (%) |
-+-------------------+----------------------------------------+
-| Runs | 5 random seeds |
-+-------------------+----------------------------------------+
++-------------------+------------------------------------------------+
+| Benchmark Item    | Value                                          |
++===================+================================================+
+| Datasets          | 25 PMLB datasets                               |
++-------------------+------------------------------------------------+
+| Base Classifiers  | 17 heterogeneous classifiers                   |
++-------------------+------------------------------------------------+
+| Data Split        | 60% / 20% / 20%                                |
++-------------------+------------------------------------------------+
+| Metric            | Macro-F1 (%), time, memory usage               |
++-------------------+------------------------------------------------+
+| Runs              | 5 random seeds                                 |
++-------------------+------------------------------------------------+
+| System            | Intel Xeon® E5-2620 v3 CPU (48 cores), 314 GB  | 
++-------------------+------------------------------------------------+ 
 
 +------------------+------------------------------------------------+
-| Ensemble Type | Methods |
+| Ensemble Type    | Methods                                        |
 +==================+================================================+
-| Static | Voting (Hard), Voting (Soft), Stacking |
+| Static           | Voting (Hard), Voting (Soft), Stacking         |
 +------------------+------------------------------------------------+
-| DES | DES-Clustering, DES-KNN, KNORA-E, KNORA-U, |
-| | DES-RRC, DES-KL, DES-P, KNOP, META-DES, |
-| | FIRE-DES, DES-MI, GNN-DES, FH-DES, imDEF, |
-| | DES-AS, IncA-DES |
+| DES              | DES-Clustering, DES-KNN, KNORA-E, KNORA-U,     |
+|                  | DES-RRC, DES-KL, DES-P, KNOP, META-DES,        |
+|                  | FIRE-DES, DES-MI, GNN-DES, FH-DES, imDEF,      |
+|                  | DES-AS, IncA-DES                               |
 +------------------+------------------------------------------------+
 
 .. image:: images/benchmark_results_1.png
