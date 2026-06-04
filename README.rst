@@ -281,6 +281,33 @@ Overall, DES methods consistently outperformed static ensemble approaches, confi
 
 From a computational perspective, most DES techniques exhibited inference times, training costs, and memory requirements comparable to simple voting-based ensembles. Only probabilistic and meta-learning-based DES variants incurred noticeable computational overhead due to their additional competence estimation and modeling components. These findings demonstrate that DES can provide substantial predictive improvements while remaining computationally practical and scalable for real-world applications.
 
+Experimental setup: 
+
++-------------------+----------------------------------------+
+| Benchmark Item | Value |
++===================+========================================+
+| Datasets | 25 PMLB datasets |
++-------------------+----------------------------------------+
+| Base Classifiers | 17 heterogeneous classifiers |
++-------------------+----------------------------------------+
+| Data Split | 60% / 20% / 20% |
++-------------------+----------------------------------------+
+| Metric | Macro-F1 (%) |
++-------------------+----------------------------------------+
+| Runs | 5 random seeds |
++-------------------+----------------------------------------+
+
++------------------+------------------------------------------------+
+| Ensemble Type | Methods |
++==================+================================================+
+| Static | Voting (Hard), Voting (Soft), Stacking |
++------------------+------------------------------------------------+
+| DES | DES-Clustering, DES-KNN, KNORA-E, KNORA-U, |
+| | DES-RRC, DES-KL, DES-P, KNOP, META-DES, |
+| | FIRE-DES, DES-MI, GNN-DES, FH-DES, imDEF, |
+| | DES-AS, IncA-DES |
++------------------+------------------------------------------------+
+
 .. image:: images/benchmark_results_1.png
    :width: 700px
    :align: center
