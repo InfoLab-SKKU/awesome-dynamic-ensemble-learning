@@ -191,6 +191,10 @@ Existing Popular DES techniques:
 +-------------------+------------------------+--------------------------------------+------------------------------------------------------------------+------+
 | IncA-DES          | K-d Tree               | Adaptive selection                   | Barboza et al. [#barboza2025inca]_                               | 2025 |
 +-------------------+------------------------+--------------------------------------+------------------------------------------------------------------+------+
+| Vision-DES        | FAISS                  | Adaptive selection                   | Juraev et al. [#firuz2026visiondes]_                             | 2026 |
++-------------------+------------------------+--------------------------------------+------------------------------------------------------------------+------+
+| MM-DES            | FAISS                  | Accuracy & Diversity                 | Juraev et al. [#firuz2026mmdes]_                                 | 2026 |
++-------------------+------------------------+--------------------------------------+------------------------------------------------------------------+------+
 
 +-------------------+-----------------------------------------------------------+
 | Technique         | GitHub                                                    | 
@@ -199,7 +203,10 @@ Existing Popular DES techniques:
 +-------------------+-----------------------------------------------------------+
 | IncA-DES          | `Repository <https://github.com/eduardovlb/IncA-DES>`_    |
 +-------------------+-----------------------------------------------------------+
-
+| Vision-DES        | `Repository <https://github.com/InfoLab-SKKU/VisionDES>`_ |
++-------------------+-----------------------------------------------------------+
+| MM-DES            | `Repository <https://github.com/InfoLab-SKKU/mm-des>`_    |
++-------------------+-----------------------------------------------------------+
 
 .. image:: images/des_timeline.png
    :width: 600px
@@ -426,3 +433,5 @@ References:
 .. [#vasheghani2025adaptive] Vasheghani, Sanaz, et al. "Adaptive dynamic ensemble learning with class-specific model selection for efficient and robust image classification". Knowledge-Based Systems (2025)
 .. [#qin2024adversarial] Qin, Ruoxi, et al. "Adversarial robust decision-making under uncertainty learning and dynamic ensemble selection". Engineering Applications of Artificial Intelligence (2024) 
 You can check: `Awesome Ensemble Learning <https://github.com/yzhao062/awesome-ensemble-learning#gomes2017a>`_ 
+.. [#firuz2026visiondes] Juraev, Firuz, et al. "VisionDES: Robust and Explainable Dynamic Vision Ensemble".  32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining (2026) 
+.. [#firuz2026mmdes] Juraev, Firuz, et al. "MM-DES: Enhancing Multimodal Clinical Prediction with Joint Contrastive Embeddings and Dynamic Ensembles". 28th International Conference on Pattern Recognition (2026)
