@@ -318,22 +318,6 @@ Experimental setup:
 +------------------+------------------------------------------------+
 
 
-Benchmark Directory Structure
------------------------------
-
-.. code-block:: text
-
-    benchmark/
-    ├── des_models/
-    │   ├── des_as.py
-    │   ├── fh_des.py
-    │   ├── gnn_des.py
-    │   ├── im_def.py
-    │   └── inca_des.py
-    ├── DES_Benchmark.ipynb
-    └── readme.rst
-
-
 .. image:: images/benchmark_results_1.png
    :width: 700px
    :align: center
@@ -432,6 +416,8 @@ References:
 .. [#alam2020dynamic] Alam, Kazi, et al. "A dynamic ensemble learning algorithm for neural networks". Neural Computing and Applications (2020) 
 .. [#vasheghani2025adaptive] Vasheghani, Sanaz, et al. "Adaptive dynamic ensemble learning with class-specific model selection for efficient and robust image classification". Knowledge-Based Systems (2025)
 .. [#qin2024adversarial] Qin, Ruoxi, et al. "Adversarial robust decision-making under uncertainty learning and dynamic ensemble selection". Engineering Applications of Artificial Intelligence (2024) 
-You can check: `Awesome Ensemble Learning <https://github.com/yzhao062/awesome-ensemble-learning#gomes2017a>`_ 
 .. [#firuz2026visiondes] Juraev, Firuz, et al. "VisionDES: Robust and Explainable Dynamic Vision Ensemble".  32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining (2026) 
-.. [#firuz2026mmdes] Juraev, Firuz, et al. "MM-DES: Enhancing Multimodal Clinical Prediction with Joint Contrastive Embeddings and Dynamic Ensembles". 28th International Conference on Pattern Recognition (2026)
+.. [#firuz2026mmdes] Juraev, Firuz, et al. "MM-DES: Enhancing Multimodal Clinical Prediction with Joint Contrastive Embeddings and Dynamic Ensembles". 28th International Conference on Pattern Recognition (2026) 
+
+You can check: `Awesome Ensemble Learning <https://github.com/yzhao062/awesome-ensemble-learning#gomes2017a>`_ 
+
