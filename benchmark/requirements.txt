@@ -6,3 +6,6 @@ pmlb
 deslib
 tqdm
 torch
+xgboost
+lightgbm
+catboost
