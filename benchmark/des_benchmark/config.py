@@ -17,6 +17,10 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
 
+from xgboost import XGBClassifier
+from catboost import CatBoostClassifier
+from lightgbm import LGBMClassifier
+
 DEFAULT_SEEDS = [0, 42, 123, 2021, 7]
 DEFAULT_K = 7
 
@@ -72,9 +76,9 @@ def make_base_classifiers(profile: str = "current13", random_state: int = 42):
         # Kept source-faithful to the uploaded notebook: these three labels use
         # HistGradientBoostingClassifier there. Rename/replace only if your actual
         # benchmark used the external XGBoost/CatBoost/LightGBM libraries.
-        ("XGB", HistGradientBoostingClassifier(random_state=random_state)),
-        ("CatBoost", HistGradientBoostingClassifier(random_state=random_state)),
-        ("LGBM", HistGradientBoostingClassifier(random_state=random_state)),
+        ("XGB", XGBClassifier(random_state=random_state, verbosity=0)),
+        ("CatBoost", CatBoostClassifier(random_state=random_state, verbose=False)),
+        ("LGBM", LGBMClassifier(random_state=random_state, verbosity=-1)),
         ("Bagging", BaggingClassifier(random_state=random_state)),
         ("AdaBoost", AdaBoostClassifier(random_state=random_state)),
         ("SVC", SVC(probability=True, random_state=random_state)),
