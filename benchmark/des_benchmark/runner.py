@@ -73,7 +73,7 @@ def run_benchmark(
                     rows.append({
                         "seed": seed, "dataset": dataset_name, "method": method,
                         "status": "error", "error": f"dataset_setup: {type(exc).__name__}: {exc}",
-                        "f1_weighted": np.nan, "train_time_s": np.nan,
+                        "f1_macro": np.nan, "train_time_s": np.nan,
                         "test_time_s": np.nan, "memory_mb": np.nan,
                         "base_train_time_s": np.nan, "base_memory_mb": np.nan,
                     })
@@ -115,7 +115,7 @@ def run_benchmark(
                     memory_mb = peak / 1024**2
                     tracemalloc.stop()
 
-                    f1 = f1_score(y_test, y_pred, average="weighted")
+                    f1 = f1_score(y_test, y_pred, average="macro")
                 except Exception as exc:
                     if tracemalloc.is_tracing():
                         tracemalloc.stop()
@@ -131,7 +131,7 @@ def run_benchmark(
                     "method": method_name,
                     "status": status,
                     "error": error,
-                    "f1_weighted": f1,
+                    "f1_macro": f1,
                     "train_time_s": train_time,
                     "test_time_s": test_time,
                     "memory_mb": memory_mb,
