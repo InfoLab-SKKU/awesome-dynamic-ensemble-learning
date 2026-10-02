@@ -101,7 +101,7 @@ def main():
         "n_base_classifiers": len(classifiers),
         "split": "60/20/20 stratified train/DSEL/test",
         "scaling": "MinMaxScaler fit on train only",
-        "primary_metric": "weighted F1",
+        "primary_metric": "macro F1",
         "memory": "tracemalloc peak Python allocation during method fit+predict",
         "des_training_time": "DES method fit/adaptation only; shared base-pool training measured separately",
     }
