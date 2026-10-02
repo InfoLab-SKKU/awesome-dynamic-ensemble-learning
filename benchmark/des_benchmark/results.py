@@ -15,8 +15,8 @@ def summarize(raw_df: pd.DataFrame) -> pd.DataFrame:
         return pd.DataFrame()
 
     grouped = ok.groupby(["method", "dataset"], as_index=False).agg(
-        f1_mean=("f1_weighted", "mean"),
-        f1_std=("f1_weighted", lambda x: np.std(x, ddof=1) if len(x) > 1 else 0.0),
+        f1_mean=("f1_macro", "mean"),
+        f1_std=("f1_macro", lambda x: np.std(x, ddof=1) if len(x) > 1 else 0.0),
         train_time_mean=("train_time_s", "mean"),
         train_time_std=("train_time_s", lambda x: np.std(x, ddof=1) if len(x) > 1 else 0.0),
         test_time_mean=("test_time_s", "mean"),
@@ -34,7 +34,7 @@ def make_pretty(summary_df: pd.DataFrame) -> pd.DataFrame:
     if summary_df.empty:
         return summary_df.copy()
     out = summary_df[["method", "dataset", "n_runs"]].copy()
-    out["F1 (%)"] = summary_df.apply(lambda r: f"{r.f1_mean:.3f}±{r.f1_std:.3f}", axis=1)
+    out["Macro F1 (%)"] = summary_df.apply(lambda r: f"{r.f1_mean:.3f}±{r.f1_std:.3f}", axis=1)
     out["Train Time (s)"] = summary_df.apply(lambda r: f"{r.train_time_mean:.3f}±{r.train_time_std:.4f}", axis=1)
     out["Test Time (s)"] = summary_df.apply(lambda r: f"{r.test_time_mean:.3f}±{r.test_time_std:.3f}", axis=1)
     out["Memory (MB)"] = summary_df.apply(lambda r: f"{r.memory_mean:.3f}±{r.memory_std:.3f}", axis=1)
