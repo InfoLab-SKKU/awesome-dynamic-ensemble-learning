@@ -108,7 +108,7 @@ The benchmark uses the following default protocol:
   ``0, 42, 123, 2021, 7``.
 * **Feature scaling:** ``MinMaxScaler`` fitted only on the training partition.
 * **Region of Competence:** ``k = 7`` where applicable.
-* **Primary predictive metric:** weighted F1-score.
+* **Primary predictive metric:** macro F1-score.
 * **Training time:** method-level fitting/adaptation time.
 * **Inference time:** total prediction time over the complete test partition.
 * **Memory:** peak Python allocation during method fitting and prediction,
